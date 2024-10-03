@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-secondary text-base text-secondary bg-primary-secondary
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-primary text-primary
+}
+
+.h1 {
+    @apply text-[60px] lg:text-[84px] leading-none
+}
+
+.h2 {
+    @apply text-4xl lg:text-[50px] leading-tight
+}
+
+.h3 {
+    @apply text-[40px] font-bold leading-[48px]
+}
+
+.btn {
+    @apply h-[50px] px-7 transition-all duration-300 text-white rounded-md flex items-center justify-center gap-2
+}
+
+.btn-primary {
+    @apply bg-accent-secondary hover:bg-white hover:text-accent-secondary border border-accent-secondary
+}
